@@ -54,6 +54,7 @@ h1 {
   color: black;
 }
 
+/* Contact */
 .contact {
   box-sizing: border-box;
   font-size: calc(5px + 2vw);
@@ -64,6 +65,10 @@ h1 {
 form {
    max-width: 420px;
    margin: 0 auto;
+}
+
+h4 {
+  font-size: calc(5px + 3vw);
 }
 
 p {
