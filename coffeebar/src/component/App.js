@@ -4,7 +4,7 @@ import Heading from './Heading';
 import News from './News';
 import About from './About';
 import Contact from './Contact';
-
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
         <News />
         <About />
         <Contact />
+        <Footer />
       </div>
     );
   }

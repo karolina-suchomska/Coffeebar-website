@@ -31,7 +31,7 @@ h1 {
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: #89654156;
+  background-color: #a55b1156;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,5 +52,11 @@ h1 {
 .contact {
   font-size: calc(15px + 7vw);
   color: black;
+}
+
+.footer {
+  width: 100%;
+  background-color: #8b5e37;
+  color: white;
 }
 
