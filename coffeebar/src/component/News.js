@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Slider from './Slider/Slider'
 
-const News = () => {
-    return ( 
-        <div className="news container">
-            <p>Nowości CoffeeBar</p>
-        </div>
-     );
+class News extends Component {
+    render() {
+        return ( 
+            <div className="news container">
+                <p>Nowości CoffeeBar</p>
+                <Slider />
+            </div>
+        );
+    }
 }
  
 export default News;

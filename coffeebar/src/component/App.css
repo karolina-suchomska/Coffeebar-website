@@ -44,10 +44,30 @@ h1 {
   margin: 0 auto;
 }
 
+/* news */
+
 .news {
-  font-size: calc(15px + 7vw);
+  font-size: calc(5px + 3vw);
   color: black;
 }
+
+.slider {
+  display: flex;
+}
+
+.leftSlider {
+  flex: 1;
+}
+
+.rightSlider {
+  flex: 1;
+}
+
+.slides {
+  display: flex;
+}
+
+/* about */
 
 .about {
   font-size: calc(15px + 7vw);
