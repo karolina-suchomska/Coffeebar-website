@@ -67,6 +67,11 @@ h1 {
   display: flex;
 }
 
+.img {
+  width: 200px;
+  height: 250px;
+}
+
 /* about */
 
 .about {
