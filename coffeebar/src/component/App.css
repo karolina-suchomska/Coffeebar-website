@@ -33,7 +33,7 @@ h1 {
   background-color:rgba(184, 151, 129, 0.404);
 }
 
-.container {
+.contain {
   width: 100%;
   min-height: 100vh;
   background-color: #a55b1156;
@@ -60,8 +60,14 @@ h1 {
 /* about */
 
 .about {
-  font-size: calc(15px + 7vw);
+  font-size: calc(5px + 2vw);
   color: black;
+}
+
+h3 {
+  align-items: left;
+  text-align: left;
+  text-decoration: bold;
 }
 
 /* Contact */
