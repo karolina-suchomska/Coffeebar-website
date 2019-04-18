@@ -5,11 +5,13 @@ import News from './News';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
+import Menu from './Menu';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Menu />
         <Heading />
         <News />
         <About />
