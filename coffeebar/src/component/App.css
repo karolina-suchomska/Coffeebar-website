@@ -12,7 +12,18 @@
 }
 
 .menu {
-  color: black;
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: calc(5px + 2vw);
+  display: inline;
+  position: fixed;
+  justify-content: space-around;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(150, 118, 97, 0.884);
+  padding: 10px;
+  z-index: 1;
 }
 
 .heading {
@@ -85,6 +96,7 @@ h3 {
 
 .signatures {
   font-size: calc(5px + 1vw);
+  text-align: justify;
   padding: 10px;
 }
 
