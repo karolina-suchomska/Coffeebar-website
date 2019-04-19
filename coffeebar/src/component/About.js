@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const About = () => {
     return ( 
-        <div className="about contain">
+        <div id="about" className="about contain">
         <div className="title_about">
             <h3>Nasza misja</h3>
             <p>Jakość, szacunek i pasja, która wydobywa z kawy to co najlepsze.</p>

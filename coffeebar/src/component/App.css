@@ -15,13 +15,13 @@
   font-family: 'Lobster', cursive;
   color: white;
   font-size: calc(5px + 2vw);
-  display: inline;
+  display: flex;
   position: fixed;
   justify-content: space-around;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(150, 118, 97, 0.884);
+  background-color: rgba(150, 118, 97, 0.959);
   padding: 10px;
   z-index: 1;
 }

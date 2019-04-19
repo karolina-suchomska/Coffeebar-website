@@ -2,7 +2,7 @@ import React from 'react';
 
 const Heading = () => {
     return ( 
-        <div className="heading content">
+        <div id="home" className="heading content">
             <h1>CoffeeBar</h1>
         </div>
      );
