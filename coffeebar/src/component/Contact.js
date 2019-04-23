@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Footer from './Footer';
 
 const API_PATH = 'http://localhost:1992/react-contact-form/api/contact/index.php';
 
@@ -67,7 +68,9 @@ class Contact extends Component {
                         </div>
                     </form>
                 </div>
+              <Footer />
             </div>
+            
         );
     }
 }

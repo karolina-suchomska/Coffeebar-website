@@ -14,7 +14,7 @@
 .menu {
   font-family: 'Lobster', cursive;
   color: white;
-  font-size: calc(5px + 2vw);
+  font-size: calc(8px + 1vw);
   display: flex;
   position: fixed;
   justify-content: space-around;
@@ -22,16 +22,36 @@
   top: 0;
   width: 100%;
   background-color: rgba(150, 118, 97, 0.959);
-  padding: 10px;
+  padding: 3px;
   z-index: 1;
+  transition: 0.4s;
+}
+
+.menu:hover {
+  font-size: calc(8px + 1.5vw);
+  padding: 10px;
+}
+
+.menu-el {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-el:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .heading {
   width: 100%;
+}
+
+.parallax {
   height: 100vh;
   background-image: url("./img/bg.png");
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -62,6 +82,7 @@ h1 {
 /* news */
 
 .news {
+  padding-top: 50px;
   font-size: calc(5px + 3vw);
   color: black;
 }
@@ -103,12 +124,12 @@ h3 {
 /* Contact */
 .contact {
   box-sizing: border-box;
-  font-size: calc(5px + 1.5vw);
+  font-size: calc(6px + 1vw);
   color: black;
 }
 
 form {
-   max-width: 420px;
+   max-width: 320px;
    margin: 0 15px 0 15px;
 }
 
@@ -117,15 +138,20 @@ h4 {
   font-family: 'Lobster', cursive;
 }
 
+label {
+  margin-bottom: 0.1rem !important;
+}
+
 input[type=text],input[type=email], textarea {
    width: 100%;
-   padding: 12px;
+   padding: 10px;
    background: rgba(184, 151, 129, 0.274);
    border: 1px solid rgb(53, 27, 10);
    border-radius: 4px;
    box-sizing: border-box;
    margin-top: 6px;
-   margin-bottom: 16px;
+   margin-bottom: 10px;
+   font-size: calc(3px + 1vw);
    resize: vertical;
 }
 
@@ -143,9 +169,11 @@ input[type=submit]:hover {
 }
 
 .footer {
+  position: fixed;
   width: 100%;
   background-color: rgb(150, 118, 97);
   color: white;
-  padding: 10px;
+  padding: 0.2rem;
+  bottom: 0;
 }
 
