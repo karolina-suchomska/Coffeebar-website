@@ -1,0 +1,31 @@
+.menu {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: calc(8px + 1.5vw);
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(150, 118, 97, 0.5);
+    padding: 3px;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .menu:hover {
+    font-size: calc(8px + 1.5vw);
+    background-color: rgba(150, 118, 97, 0.952);
+  }
+  
+  .menu-el {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-el:hover {
+    text-decoration: none;
+    color: black;
+  }
+  

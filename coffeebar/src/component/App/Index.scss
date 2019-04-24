@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Lobster|Open+Sans+Condensed:300');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+.contain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #a55b1156;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+

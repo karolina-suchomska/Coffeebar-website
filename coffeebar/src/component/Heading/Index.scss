@@ -1,0 +1,25 @@
+.heading {
+    width: 100%;
+  }
+  
+  .parallax {
+    height: 100vh;
+    background-image: url("../img/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family: 'Lobster', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: calc(25px + 8vw) !important;;
+    color: white;
+    background-color:rgba(184, 151, 129, 0.404);
+  }

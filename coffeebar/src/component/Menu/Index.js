@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Index.scss'
 
 class Menu extends Component {    
     

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './App.scss';
-import Heading from './Heading';
-import News from './News';
-import About from './About';
-import Contact from './Contact';
-import Menu from './Menu';
+import './Index.scss';
+import Heading from '../Heading/Index';
+import News from '../News/Index';
+import About from '../About/Index';
+import Contact from '../Contact/Index';
+import Menu from '../Menu/Index';
+import Footer from '../Footer/Index';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <News />
         <About />
         <Contact />
+        <Footer />
       </div>
     );
   }
