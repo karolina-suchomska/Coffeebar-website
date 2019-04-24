@@ -17,7 +17,7 @@
       height: 75vmin;
       border: none;
       position: relative;
-      .text_block {
+      .card_text {
         position: absolute;
         top: 50px;
         left: 10px;
@@ -41,7 +41,6 @@
         position: absolute;
         bottom: 0;
         font-size: calc(6px + 2vw);
-        white-space: nowrap;
       }
   
       &:hover {
@@ -49,7 +48,7 @@
         .card_img {
           filter: opacity(100%);
         }
-        .text_block{
+        .card_text{
         transition-delay: 0.5s;
         top: 50px;
         opacity: 1;
