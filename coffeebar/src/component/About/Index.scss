@@ -1,7 +1,8 @@
+@import '../Style/Fonts.scss';
+
 .about {
   padding-top: 10px;
-  font-size: calc(5px + 2vw);
-  color: black;
+  font-size: $text_medium;
 }
 
 .title_about {
@@ -9,18 +10,13 @@
   margin-bottom: 20px;
 }
 
-h3 {
-  font-size: calc(10px + 3vw) !important;
-  font-family: 'Lobster', cursive;
-}
-
-.about_img {
+.img_about {
   width: 250px;
   margin-bottom: 5px;
 }
 
 .signatures {
-  font-size: calc(5px + 1vw);
+  font-size: $text_small;
   text-align: justify;
   padding: 10px;
 }

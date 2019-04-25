@@ -5,7 +5,7 @@ class News extends Component {
     render() {
         return ( 
             <div id="news" className="news contain">
-                <h4>Nowości CoffeeBar</h4>
+                <h2>Nowości CoffeeBar</h2>
                 <div className="gallery">
                     <div className="card">
                         <img className="card_img" src={require("../img/coffee1.jpg")} alt=""/>

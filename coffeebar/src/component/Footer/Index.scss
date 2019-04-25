@@ -1,8 +1,10 @@
+@import '../Style/Colors.scss';
+
 .footer {
-  position: fixed;
   width: 100%;
-  background-color: rgb(150, 118, 97);
-  color: white;
+  position: fixed;
   padding: 0.2rem;
   bottom: 0;
+  background-color: $dark_color;
+  color: $white_text_color;
 }

@@ -1,7 +1,9 @@
+@import '../Style/Colors.scss';
+@import '../Style/Fonts.scss';
+
 .contact {
   box-sizing: border-box;
-  font-size: calc(6px + 1vw);
-  color: black;
+  font-size: $text_small;
 }
 
 form {
@@ -9,37 +11,29 @@ form {
    margin: 0 15px 0 15px;
 }
 
-h4 {
-  font-size: calc(10px + 3vw) !important;
-  font-family: 'Lobster', cursive;
-}
-
 label {
   margin-bottom: 0.1rem !important;
 }
 
 input[type=text],input[type=email], textarea {
-   width: 100%;
-   padding: 10px;
-   background: rgba(184, 151, 129, 0.274);
-   border: 1px solid rgb(53, 27, 10);
-   border-radius: 4px;
-   box-sizing: border-box;
-   margin-top: 6px;
-   margin-bottom: 10px;
-   font-size: calc(3px + 1vw);
-   resize: vertical;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 6px 0 10px 0;
+  padding: 10px;
+  background: $mask_color;
+  border: 1px solid $dark_mask_color;
+  border-radius: 4px;   
 }
 
 input[type=submit] {
-   background-color: rgb(150, 118, 97);
-   color: white;
-   padding: 8px 12px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: $dark_color;
+  color: $white_text_color;
+  border: none;
+  border-radius: 4px;
 }
 
 input[type=submit]:hover {
-   background-color: rgba(150, 118, 97, 0.678);
+   background-color: $transparent_dark;
 }

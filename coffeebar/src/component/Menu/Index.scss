@@ -1,31 +1,28 @@
+@import '../Style/Position.scss';
+@import '../Style/Colors.scss';
+@import '../Style/Fonts.scss';
+
 .menu {
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: calc(8px + 1.5vw);
-    display: flex;
-    position: fixed;
-    justify-content: space-around;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color: rgba(150, 118, 97, 0.5);
-    padding: 3px;
-    z-index: 1;
-    transition: all 0.4s ease-in-out;
-  }
+  @include position(fixed, $top: 0, $left:0);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3px;
+  z-index: 1;
+  font-family: $title_font;
+  color: $white_text_color;
+  font-size: $text_big;
+  background-color: $transparent_dark;
+  transition: all 0.4s ease-in-out;
+}
   
-  .menu:hover {
-    font-size: calc(8px + 1.5vw);
-    background-color: rgba(150, 118, 97, 0.952);
-  }
+.menu-el {
+  color: $white_text_color;
+  text-decoration: none;
+}
   
-  .menu-el {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .menu-el:hover {
-    text-decoration: none;
-    color: black;
-  }
+.menu-el:hover {
+  color: $black_text_color;
+  text-decoration: none;
+}
   

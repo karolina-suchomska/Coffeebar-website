@@ -1,25 +1,27 @@
+@import '../Style/Position.scss';
+@import '../Style/Colors.scss';
+@import '../Style/Fonts.scss';
+
 .heading {
-    width: 100%;
-  }
-  
-  .parallax {
+    width: 100%;  
+}
+
+.parallax {
     height: 100vh;
     background-image: url("../img/bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  h1 {
-    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    @include flex;
+
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
-    font-size: calc(25px + 8vw) !important;;
-    color: white;
-    background-color:rgba(184, 151, 129, 0.404);
-  }
+    font-family: $title_font;
+    font-size: $main_title_size;
+    color: $white_text_color;
+    background-color: $mask_color;
+}

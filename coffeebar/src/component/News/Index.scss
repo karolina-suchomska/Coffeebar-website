@@ -1,46 +1,42 @@
+@import '../Style/Position.scss';
+@import '../Style/Colors.scss';
+@import '../Style/Fonts.scss';
+
 .news {
     padding-top: 50px;
-    font-size: calc(5px + 3vw);
-    color: black;
   }
   
   .gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex_gallery;
     margin: 5vmin 15vmin 5vmin 15vmin ;
     overflow: hidden;
   
     .card {
       flex: 1;
-      transition: all 0.5s ease-in-out;
       height: 75vmin;
-      border: none;
       position: relative;
+      border: none;
+      transition: all 0.5s ease-in-out;
       .card_text {
-        position: absolute;
-        top: 50px;
-        left: 10px;
-        right: 10px;
+        @include position(absolute, $top: 50px, $left: 10px, $right: 10px);
+        
         max-width: 400px;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.562);
-        color: white;
         visibility: hidden;  
-        font-size: calc(6px + 0.8vw);    
         opacity: 0;
-        text-align: center;
+        background-color: $dark_mask_color;
+        color: $white_text_color;
+        font-size: $text_small;    
       }
       .card_head {
-        color: white;
-        background: rgba(0, 0, 0, 0.5);
-        padding: 0.3em;
-        transition: all 0.5s ease-in-out;
+        @include position(absolute, $bottom: 0);
+
         min-width: 100%;
-        text-align: center;
-        position: absolute;
-        bottom: 0;
-        font-size: calc(6px + 2vw);
+        padding: 0.3em;
+        background: $dark_mask_color;
+        color: $white_text_color;
+        font-size: $text_medium;
+        transition: all 0.5s ease-in-out;
       }
   
       &:hover {
@@ -49,10 +45,9 @@
           filter: opacity(100%);
         }
         .card_text{
-        transition-delay: 0.5s;
-        top: 50px;
         opacity: 1;
         visibility: visible;
+        transition-delay: 0.5s;
         }
       }
       .card_img {
