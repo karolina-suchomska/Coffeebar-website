@@ -12,7 +12,7 @@
   font-family: $title_font;
   color: $white_text_color;
   font-size: $text_big;
-  background-color: $transparent_dark;
+  background-color: transparentize($dark_color, 0.4);
   transition: all 0.4s ease-in-out;
 }
   

@@ -20,8 +20,8 @@ input[type=text],input[type=email], textarea {
   width: 100%;
   margin: 6px 0 10px 0;
   padding: 10px;
-  background: $mask_color;
-  border: 1px solid $dark_mask_color;
+  background: transparentize($dark_color, 0.8);
+  border: 1px solid $black_text_color;
   border-radius: 4px;   
 }
 
@@ -35,5 +35,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-   background-color: $transparent_dark;
+   background-color: transparentize($dark_color, 0.4);
 }
