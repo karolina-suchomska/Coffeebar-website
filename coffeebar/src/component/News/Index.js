@@ -8,21 +8,21 @@ class News extends Component {
                 <h2>Nowości CoffeeBar</h2>
                 <div className="gallery">
                     <div className="card">
-                        <img className="card_img" src={require("../img/coffee1.jpg")} alt=""/>
+                        <img className="card_img" src={require("../../Assets/Images/coffee1.jpg")} alt=""/>
                         <div className="card_text">
                         Zachwyca waniliowym smakiem i delikatnym aromatem. Jej głęboki waniliowy smak to prawdziwy raj dla podniebienia.
                         </div>
                         <div className="card_head">Waniliowe Cappuccino</div>
                     </div>
                     <div className="card">
-                        <img className="card_img" src={require("../img/coffee2.jpg")} alt=""/>
+                        <img className="card_img" src={require("../../Assets/Images/coffee2.jpg")} alt=""/>
                         <div className="card_text">
                             Wyjątkowy posmak palonego karmelu idealnie uzupełnia aromatyczne espresso połączone z gładką konsystencją spienionego mleka.
                         </div>
                         <div className="card_head">Carmel Latte</div>
                     </div>
                     <div className="card">
-                        <img className="card_img" src={require("../img/coffee3.jpg")} alt=""/>
+                        <img className="card_img" src={require("../../Assets/Images/coffee3.jpg")} alt=""/>
                         <div className="card_text">
                             Pyszna kawa na bazie belgijskiej czekolady z dodatkiem bitej śmietany.
                         </div>
