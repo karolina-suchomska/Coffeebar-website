@@ -1,10 +1,12 @@
 @import '../../Style/Colors.scss';
+@import '../../Style/Fonts.scss';
 
 .footer {
   width: 100%;
   position: fixed;
   padding: 0.2rem;
   bottom: 0;
+  font-size: $text_small;
   background-color: $dark_color;
   color: $white_text_color;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './Index.scss';
 
-const API_PATH = 'http://localhost:1992/react-contact-form/api/contact/index.php';
+const API_PATH = 'http://localhost/api/contact/index.php';
 
 class Contact extends Component {
     constructor(props) {
@@ -33,11 +33,12 @@ class Contact extends Component {
       }
 
     render() {
+      const {data}=this.props
         return ( 
             <div id="contact" className="contact contain">
-                <h2>Kontakt</h2>
+                <h2>{data.contact}</h2>
                 <div>
-                    <form action="#">
+                    <form action="index.php">
                         <label>Imię i nazwisko</label>
                         <input type="text" id="name" name="name" 
                             value={this.state.name}
@@ -62,9 +63,9 @@ class Contact extends Component {
                         />
 
                         <div>
-                        {this.state.mailSent &&
-                            <div>Thank you for contcting us.</div>
-                        }
+                          {this.state.mailSent &&
+                            <div>Dziękujemy za wiadomość.</div>
+                          }
                         </div>
                     </form>
                 </div>

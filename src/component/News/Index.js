@@ -3,30 +3,25 @@ import './Index.scss';
 
 class News extends Component {
     render() {
+        const {data}=this.props
         return ( 
             <div id="news" className="news contain">
-                <h2>Nowości CoffeeBar</h2>
+                <h2>{data.news}</h2>
                 <div className="gallery">
                     <div className="card">
-                        <img className="card_img" src={require("../../Assets/Images/coffee1.jpg")} alt=""/>
-                        <div className="card_text">
-                        Zachwyca waniliowym smakiem i delikatnym aromatem. Jej głęboki waniliowy smak to prawdziwy raj dla podniebienia.
-                        </div>
-                        <div className="card_head">Waniliowe Cappuccino</div>
+                        <img className="card_img" src={require('../../Assets/Images/coffee1.jpg')} alt=""/>
+                        <div className="card_head">{data.title_slider1}</div>
+                        <div className="card_text">{data.text_slider1}</div>
                     </div>
                     <div className="card">
                         <img className="card_img" src={require("../../Assets/Images/coffee2.jpg")} alt=""/>
-                        <div className="card_text">
-                            Wyjątkowy posmak palonego karmelu idealnie uzupełnia aromatyczne espresso połączone z gładką konsystencją spienionego mleka.
-                        </div>
-                        <div className="card_head">Carmel Latte</div>
+                        <div className="card_head">{data.title_slider2}</div>
+                        <div className="card_text">{data.text_slider2}</div>
                     </div>
                     <div className="card">
                         <img className="card_img" src={require("../../Assets/Images/coffee3.jpg")} alt=""/>
-                        <div className="card_text">
-                            Pyszna kawa na bazie belgijskiej czekolady z dodatkiem bitej śmietany.
-                        </div>
-                        <div className="card_head">Czekoladowa rozkosz</div>
+                        <div className="card_head">{data.title_slider3}</div>
+                        <div className="card_text">{data.text_slider3}</div>
                     </div>
                 </div>
             </div>

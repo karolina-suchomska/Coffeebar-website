@@ -1,38 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './Index.scss';
 
-const About = () => {
-    return ( 
-        <div id="about" className="about contain">
-        <div className="title_about">
-            <h2>Nasza misja</h2>
-            <p>Jakość, szacunek i pasja, która wydobywa z kawy to co najlepsze.</p>
-        </div>
-            <Container>
-                <Row>
-                    <Col >
-                    <div>
-                        <img className="img_about" src={require('../../Assets/Images/img1.jpg')} alt=''/>
-                        <label className="signatures">Nasza kawa posiada certyfikat Ekogwarancji, co oznacza, że do produkcji nie były wykorzystywane sztuczne nawozy, kawa nie była modyfikowana genetycznie. To pozwala na wydobycie dodatkowych walorów smakowych i zaproponowanie wam naprawdę aromatycznego, gęstego espresso z aksamitną pianką, na bazie którego powstają kolejne wariacje kawowe.</label>
-                    </div>
-                    </Col>
-                    <Col>
-                    <div>
-                        <label className="signatures" >Dbamy o dobre samopoczucie zarówno klientów, jak i naszych pracowników. Dostrzegamy potrzeby każdej ze stron i staramy się wychodzić im naprzeciw. Goście odwiedzający kawiarnie powinni czuć się jak w domu – dokładamy do tego wszelkich starań.</label>
-                        <img className="img_about" src={require('../../Assets/Images/img2.jpg')} alt=''/>
-                    </div>
-                    </Col>
-                    <Col >
-                    <div>
-                        <img className="img_about" src={require('../../Assets/Images/img3.jpg')} alt=''/>
-                        <label className="signatures">Nasze kawiarnie traktujemy jak jedną z najważniejszych przestrzeni, zaraz po domowym zaciszu oraz miejscu pracy. Chcemy, aby były pełne wspaniałych spotkań i wyjątkowych historii. Przytulne wnętrza Columbus Coffee idealnie dopełniają smak kubka kawy, niezależnie od tego, czy szukasz w nich chwili relaksu, czy skupienia przy pracy.</label>
-                    </div>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-     );
+class About extends Component {
+    render() {
+        const {data}=this.props
+        return ( 
+            <div id="about" className="about contain">
+            <div className="title_about">
+                <h2>{data.about}</h2>
+                <p>{data.heading_about}</p>
+            </div>
+                <Container>
+                    <Row>
+                        <Col >
+                        <div>
+                            <img className="img_about" src={require('../../Assets/Images/img1.jpg')} alt=''/>
+                            <label className="text_about">{data.text_about1}</label>
+                        </div>
+                        </Col>
+                        <Col>
+                        <div>
+                            <label className="text_about">{data.text_about2}</label>
+                            <img className="img_about" src={require('../../Assets/Images/img2.jpg')} alt=''/>
+                        </div>
+                        </Col>
+                        <Col >
+                        <div>
+                            <img className="img_about" src={require('../../Assets/Images/img3.jpg')} alt=''/>
+                            <label className="text_about">{data.text_about3}</label>
+                        </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        );
+    }
 }
  
 export default About;
