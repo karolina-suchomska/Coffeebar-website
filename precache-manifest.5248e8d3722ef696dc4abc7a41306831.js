@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Coffeebar-website/static/media/coffee1.dd635ecf.jpg"
   },
   {
-    "revision": "dcfa6a219ff7c4b6d083",
-    "url": "/Coffeebar-website/static/css/main.51c63b29.chunk.css"
+    "revision": "94f3b12ba844025ed2ad",
+    "url": "/Coffeebar-website/static/css/main.7693d249.chunk.css"
   },
   {
     "revision": "3d263e16fe25a24dbb14",
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/Coffeebar-website/static/media/img3.b5e31ab6.jpg"
   },
   {
-    "revision": "cd7d5b753562193a3acb",
-    "url": "/Coffeebar-website/static/js/2.61141f50.chunk.js"
+    "revision": "033d6fa60827088306d3",
+    "url": "/Coffeebar-website/static/js/2.d95e2db4.chunk.js"
   },
   {
     "revision": "41953e4fe61a2e8f50d916e4fbf1331d",
     "url": "/Coffeebar-website/static/media/bg.41953e4f.png"
   },
   {
-    "revision": "dcfa6a219ff7c4b6d083",
-    "url": "/Coffeebar-website/static/js/main.ca5d6f17.chunk.js"
+    "revision": "94f3b12ba844025ed2ad",
+    "url": "/Coffeebar-website/static/js/main.3153f719.chunk.js"
   },
   {
     "revision": "9a39b599a34ff83f5790e1d64494047a",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/Coffeebar-website/static/media/img2.dacb833d.jpg"
   },
   {
-    "revision": "cd7d5b753562193a3acb",
+    "revision": "033d6fa60827088306d3",
     "url": "/Coffeebar-website/static/css/2.fb49331c.chunk.css"
   },
   {
-    "revision": "32343b6f1a90ce83b32d2927818253d6",
+    "revision": "a19ebbc462b18e694472f1ed68d013f1",
     "url": "/Coffeebar-website/index.html"
   }
 ];
