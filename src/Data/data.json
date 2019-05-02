@@ -2,21 +2,28 @@
     {
         "title": "CoffeeBar", 
         "name": "Karolina Suchomska",
+        
         "news": "Nowości CoffeeBar", 
         "title_slider1": "Waniliowe Cappuccino",
-        "text_slider1": "Zachwyca waniliowym smakiem i delikatnym aromatem. Jej głęboki waniliowy smak to prawdziwy raj dla podniebienia.", 
-        "img_slider1": "coffeebar.jpg",
         "title_slider2": "Carmel Latte",
-        "text_slider2": "Wyjątkowy posmak palonego karmelu idealnie uzupełnia aromatyczne espresso połączone z gładką konsystencją spienionego mleka.", 
-        "img_slider2": "/Images/coffee2.jpg",
         "title_slider3": "Czekoladowa rozkosz",
+        "text_slider1": "Zachwyca waniliowym smakiem i delikatnym aromatem. Jej głęboki waniliowy smak to prawdziwy raj dla podniebienia.", 
+        "text_slider2": "Wyjątkowy posmak palonego karmelu idealnie uzupełnia aromatyczne espresso połączone z gładką konsystencją spienionego mleka.", 
         "text_slider3": "Pyszna kawa na bazie belgijskiej czekolady z dodatkiem bitej śmietany.", 
-        "img_slider3": "/Images/coffee3.jpg",
+        "img_slider1": "coffee1.jpg",
+        "img_slider2": "coffee2.jpg",
+        "img_slider3": "coffee3.jpg",
+        
         "about": "Nasza misja", 
         "text_about1": "Nasza kawa posiada certyfikat Ekogwarancji, co oznacza, że do produkcji nie były wykorzystywane sztuczne nawozy, kawa nie była modyfikowana genetycznie. To pozwala na wydobycie dodatkowych walorów smakowych i zaproponowanie wam naprawdę aromatycznego, gęstego espresso z aksamitną pianką, na bazie którego powstają kolejne wariacje kawowe.",
         "text_about2": "Dbamy o dobre samopoczucie zarówno klientów, jak i naszych pracowników. Dostrzegamy potrzeby każdej ze stron i staramy się wychodzić im naprzeciw. Goście odwiedzający kawiarnie powinni czuć się jak w domu – dokładamy do tego wszelkich starań.",
         "text_about3": "Nasze kawiarnie traktujemy jak jedną z najważniejszych przestrzeni, zaraz po domowym zaciszu oraz miejscu pracy. Chcemy, aby były pełne wspaniałych spotkań i wyjątkowych historii. Przytulne wnętrza Columbus Coffee idealnie dopełniają smak kubka kawy, niezależnie od tego, czy szukasz w nich chwili relaksu, czy skupienia przy pracy.",
+        "img_about1": "img1.jpg",
+        "img_about2": "img2.jpg",
+        "img_about3": "img3.jpg",
         "heading_about": "Jakość, szacunek i pasja, która wydobywa z kawy to co najlepsze.",
-        "contact": "Kontakt"
+       
+        "address1": "Górnicza 20a",
+        "address2": "32-500 Warszawa"
     }
 ]

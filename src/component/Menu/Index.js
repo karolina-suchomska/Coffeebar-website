@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Index.scss'
 
-class Menu extends Component {    
-    
-    render() {
-        return ( 
-            <div className="menu" >
-                <a className="menu-el" href="#home">CoffeeBar</a>
-                <a className="menu-el" href="#news">Nowości</a>
-                <a className="menu-el" href="#about">O nas</a>
-                <a className="menu-el" href="#contact">Kontakt</a>
-            </div>
-         );
-    }
+export default function Menu() {    
+    return ( 
+        <div className="menu" >
+            <a className="menu-el" href="#home">CoffeeBar</a>
+            <a className="menu-el" href="#news">Nowości</a>
+            <a className="menu-el" href="#about">O nas</a>
+            <a className="menu-el" href="#contact">Kontakt</a>
+        </div>
+    );
 }
  
-export default Menu;

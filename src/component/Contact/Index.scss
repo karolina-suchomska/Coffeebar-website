@@ -6,9 +6,23 @@
   font-size: $text_small;
 }
 
+.box_contact {
+  margin: 0 30px 0 30px;
+}
+
+.google_map {
+  width: 250px;
+}
+
 form {
-   max-width: 320px;
-   margin: 0 15px 0 15px;
+  min-width: 200px;
+  max-width: 320px;
+  margin: 0 15px 0 15px;
+}
+
+.heading_contact {
+  font-size: $text_medium;
+  margin-bottom: 10px;
 }
 
 input[type=text],input[type=email], textarea {
