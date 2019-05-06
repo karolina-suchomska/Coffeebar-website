@@ -7,7 +7,7 @@ export default function About(props){
         <div id="about" className="about contain">
         <div className="title_about">
             <h2>{props.data.about}</h2>
-            <p>{props.data.heading_about}</p>
+            <span>{props.data.heading_about}</span>
         </div>
             <Container>
                 <Row>

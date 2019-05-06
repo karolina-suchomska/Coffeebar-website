@@ -22,5 +22,5 @@ export class GoogleMap extends Component {
 export default GoogleApiWrapper(
     (props) => ({
         apiKey: props.apiKey
-      }
+    }
 ))(GoogleMap);

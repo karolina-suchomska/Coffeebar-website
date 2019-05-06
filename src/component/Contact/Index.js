@@ -35,7 +35,7 @@ export default class Contact extends Component {
   }
 
   render() {
-    const {data}=this.props
+    const {data}=this.props;
     return ( 
       <div id="contact" className="contact contain">
         <Container>
@@ -43,8 +43,8 @@ export default class Contact extends Component {
             <Col className="box_contact">
               <div>
                 <div className="heading_contact">Odwiedź nas!</div>
-                <div>{data.address1}</div>
-                <div>{data.address2}</div>
+                <span>{data.address1}</span>
+                <span>{data.address2}</span>
                 <GoogleMap />
               </div>
             </Col>
