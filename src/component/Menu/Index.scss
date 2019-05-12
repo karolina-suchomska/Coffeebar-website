@@ -12,7 +12,7 @@
   z-index: 1;
   font-family: $title_font;
   font-size: $text_medium;
-  color: $white_text_color;
+  color: $light_color;
   background-color: transparentize($dark_color, 0.4);
   transition: all 0.4s ease-in-out;
   @media(max-width:640px) {
@@ -21,11 +21,11 @@
 }
   
 .menu_el {
-  color: $white_text_color;
+  color: $light_color;
   text-decoration: none;
 }
   
 .menu_el:hover {
-  color: $black_text_color;
+  color: $text_color;
   text-decoration: none;
 }

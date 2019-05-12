@@ -31,7 +31,7 @@ input[type=text],input[type=email], textarea {
   margin: 6px 0 10px 0;
   padding: 10px;
   background: transparentize($dark_color, 0.8);
-  border: 1px solid $black_text_color;
+  border: 1px solid $text_color;
   border-radius: 4px;   
 }
 
@@ -39,7 +39,7 @@ input[type=submit] {
   cursor: pointer;
   padding: 8px 12px;
   background-color: $dark_color;
-  color: $white_text_color;
+  color: $light_color;
   border: none;
   border-radius: 4px;
 }

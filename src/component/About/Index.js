@@ -11,7 +11,7 @@ export default function About(props){
         </div>
             <Container>
                 <Row>
-                    <Col >
+                    <Col>
                     <div>
                         <img className="img_about" src={require(`../../Assets/Images/${props.data.img_about1}`)} alt=''/>
                         <label className="text_about">{props.data.text_about1}</label>
