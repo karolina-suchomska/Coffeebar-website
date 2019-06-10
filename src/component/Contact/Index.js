@@ -35,52 +35,49 @@ export default class Contact extends Component {
   }
 
   render() {
-    const {data}=this.props;
-    return ( 
-      <div id="contact" className="contact contain">
-        <Container>
-          <Row>
-            <Col className="box_contact">
-              <div>
-                <div className="heading_contact">Odwiedź nas!</div>
-                <span>{data.address1}</span>
-                <span>{data.address2}</span>
-                <GoogleMap />
+  const {data}=this.props;
+  return ( 
+    <div id="contact" className="contact contain">
+      <Container>
+        <Row>
+          <Col className="box_contact">
+            <section>
+              <h3>Odwiedź nas!</h3>
+              <p>{data.address1}<br/>
+                  {data.address2}</p>
+              <GoogleMap />
+            </section>
+          </Col>
+          <Col className="box_contact">
+            <form action="index.php">
+              <h3 className="heading_contact">Skontaktuj się z nami!</h3>
+              <label>Imię i nazwisko</label>
+              <input type="text" id="name" name="name" 
+                value={this.state.name}
+                onChange={e => this.setState({ name: e.target.value })}
+              />
+              <label>E-mail</label>
+              <input type="email" id="email" name="email"
+                value={this.state.email}
+                onChange={e => this.setState({ email: e.target.value })}
+              />
+              <label>Wiadomość</label>
+              <textarea id="message" name="message" 
+                onChange={e => this.setState({ message: e.target.value })}
+                value={this.state.message}
+              />
+              <input type="submit" 
+                onClick={e => this.handleFormSubmit(e)} 
+                value="Wyślij"
+              />
+              <div> 
+                {this.state.mailSent && <div>Dziękujemy za wiadomość.</div>}
               </div>
-            </Col>
-            <Col className="box_contact">
-              <div>
-                <form action="index.php">
-                <div className="heading_contact">Skontaktuj się z nami!</div>
-                  <label>Imię i nazwisko</label>
-                  <input type="text" id="name" name="name" 
-                    value={this.state.name}
-                    onChange={e => this.setState({ name: e.target.value })}
-                  />
-                  <label>E-mail</label>
-                  <input type="email" id="email" name="email"
-                    value={this.state.email}
-                    onChange={e => this.setState({ email: e.target.value })}
-                  />
-                  <label>Wiadomość</label>
-                  <textarea id="message" name="message" 
-                    onChange={e => this.setState({ message: e.target.value })}
-                    value={this.state.message}
-                  />
-                  <input type="submit" 
-                    onClick={e => this.handleFormSubmit(e)} 
-                    value="Wyślij"
-                  />
-                  <div> 
-                    {this.state.mailSent && <div>Dziękujemy za wiadomość.</div>}
-                  </div>
-                </form>
-              </div>
-            </Col>
-          </Row>
-        </Container>                              
-      </div>
-    );
-  }
+            </form>
+          </Col>
+        </Row>
+      </Container>                              
+    </div>
+  )}
 }
 
