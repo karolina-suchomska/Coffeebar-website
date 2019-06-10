@@ -1,9 +1,11 @@
+@import '../../style/Position.scss';
+
 .google_map {
     display: flex;
     justify-content: space-around;
-    width: 80% !important;
-    height: 30vh;
-    padding-bottom: 20px !important;
-    margin-bottom: 40px;
+    width: 70% !important;
+    height: 20vh;
+    padding-bottom: 30px !important;
+    margin-bottom: 45px;
     z-index: -1;
 }
