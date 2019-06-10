@@ -1,6 +1,6 @@
-@import '../../Style/Position.scss';
-@import '../../Style/Colors.scss';
-@import '../../Style/Fonts.scss';
+@import '../../style/Position.scss';
+@import '../../style/Colors.scss';
+@import '../../style/Fonts.scss';
 
 .menu {
   @include position(fixed, $top: 0, $left:0);

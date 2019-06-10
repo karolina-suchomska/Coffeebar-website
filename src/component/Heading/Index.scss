@@ -1,6 +1,6 @@
-@import '../../Style/Position.scss';
-@import '../../Style/Colors.scss';
-@import '../../Style/Fonts.scss';
+@import '../../style/Position.scss';
+@import '../../style/Colors.scss';
+@import '../../style/Fonts.scss';
 
 .heading {
     width: 100%;  
@@ -8,7 +8,7 @@
 
 .parallax {
     height: 100vh;
-    background-image: url("../../Assets/Images/bg.png");
+    background-image: url("../../assets/Images/bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
