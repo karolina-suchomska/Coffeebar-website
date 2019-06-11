@@ -1,6 +1,6 @@
 import React from 'react';
 import './Index.scss';
-import Data from '../../data/data.json'
+import Data from '../../data/data.json';
 import Heading from '../Heading/Index';
 import News from '../News/Index';
 import About from '../About/Index';
