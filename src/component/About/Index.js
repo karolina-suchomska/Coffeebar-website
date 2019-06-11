@@ -13,15 +13,15 @@ export default function About(props){
             <Container>
                 <Row>
                     <Col>
-                        <img className="img_about" src={require(`../../assets/${props.data.img_about1}`)} alt=''/>
+                        <img className="img_about" src={require(`../../Assets/${props.data.img_about1}`)} alt=''/>
                         <label className="text_about">{props.data.text_about1}</label>
                     </Col>
                     <Col>
                         <label className="text_about">{props.data.text_about2}</label>
-                        <img className="img_about" src={require(`../../assets/${props.data.img_about2}`)} alt=''/>
+                        <img className="img_about" src={require(`../../Assets/${props.data.img_about2}`)} alt=''/>
                     </Col>
                     <Col >
-                        <img className="img_about" src={require(`../../assets/${props.data.img_about3}`)} alt=''/>
+                        <img className="img_about" src={require(`../../Assets/${props.data.img_about3}`)} alt=''/>
                         <label className="text_about">{props.data.text_about3}</label>
                     </Col>
                 </Row>

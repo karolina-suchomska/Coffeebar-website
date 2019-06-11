@@ -1,6 +1,4 @@
-@import '../../style/Position.scss';
-@import '../../style/Colors.scss';
-@import '../../style/Fonts.scss';
+@import '../../style/Variables.scss';
 
 .heading {
     width: 100%;  
@@ -8,7 +6,7 @@
 
 .parallax {
     height: 100vh;
-    background-image: url("../../assets/bg.svg");
+    background-image: url("../../Assets/bg.svg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
