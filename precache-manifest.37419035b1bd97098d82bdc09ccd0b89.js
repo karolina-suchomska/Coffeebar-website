@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1848fb6e01a349676aedc146a77c3f2",
+    "revision": "1b00d28a76faa72b564f87dcc4fd818c",
     "url": "/Coffeebar-website/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Coffeebar-website/static/css/2.0f7a873c.chunk.css"
   },
   {
-    "revision": "afc8615425d62435c8fd",
-    "url": "/Coffeebar-website/static/css/main.3a985f7c.chunk.css"
+    "revision": "7b046b73226123485605",
+    "url": "/Coffeebar-website/static/css/main.6ad916a4.chunk.css"
   },
   {
     "revision": "82a2da1783409e8a1f60",
     "url": "/Coffeebar-website/static/js/2.e4709bea.chunk.js"
   },
   {
-    "revision": "afc8615425d62435c8fd",
+    "revision": "7b046b73226123485605",
     "url": "/Coffeebar-website/static/js/main.d86cbc40.chunk.js"
   },
   {

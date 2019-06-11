@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Coffeebar-website/static/css/main.3a985f7c.chunk.css",
+    "main.css": "/Coffeebar-website/static/css/main.6ad916a4.chunk.css",
     "main.js": "/Coffeebar-website/static/js/main.d86cbc40.chunk.js",
     "main.js.map": "/Coffeebar-website/static/js/main.d86cbc40.chunk.js.map",
     "runtime~main.js": "/Coffeebar-website/static/js/runtime~main.68fe7968.js",
@@ -9,10 +9,10 @@
     "static/js/2.e4709bea.chunk.js": "/Coffeebar-website/static/js/2.e4709bea.chunk.js",
     "static/js/2.e4709bea.chunk.js.map": "/Coffeebar-website/static/js/2.e4709bea.chunk.js.map",
     "index.html": "/Coffeebar-website/index.html",
-    "precache-manifest.f8b071ded3bc2af99c6737db6c21fb42.js": "/Coffeebar-website/precache-manifest.f8b071ded3bc2af99c6737db6c21fb42.js",
+    "precache-manifest.37419035b1bd97098d82bdc09ccd0b89.js": "/Coffeebar-website/precache-manifest.37419035b1bd97098d82bdc09ccd0b89.js",
     "service-worker.js": "/Coffeebar-website/service-worker.js",
     "static/css/2.0f7a873c.chunk.css.map": "/Coffeebar-website/static/css/2.0f7a873c.chunk.css.map",
-    "static/css/main.3a985f7c.chunk.css.map": "/Coffeebar-website/static/css/main.3a985f7c.chunk.css.map",
+    "static/css/main.6ad916a4.chunk.css.map": "/Coffeebar-website/static/css/main.6ad916a4.chunk.css.map",
     "static/media/bg.svg": "/Coffeebar-website/static/media/bg.64052b75.svg",
     "static/media/coffee1.svg": "/Coffeebar-website/static/media/coffee1.91752524.svg",
     "static/media/coffee2.svg": "/Coffeebar-website/static/media/coffee2.1bcdef4d.svg",
