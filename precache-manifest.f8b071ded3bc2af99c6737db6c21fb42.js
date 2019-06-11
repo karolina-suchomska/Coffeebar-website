@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdbb2a85f03d434f05b3d42177d0cde8",
+    "revision": "d1848fb6e01a349676aedc146a77c3f2",
     "url": "/Coffeebar-website/index.html"
   },
   {
-    "revision": "09eab775dc85de4e608d",
+    "revision": "82a2da1783409e8a1f60",
     "url": "/Coffeebar-website/static/css/2.0f7a873c.chunk.css"
   },
   {
-    "revision": "eed63d6063f835b171d5",
-    "url": "/Coffeebar-website/static/css/main.9694211b.chunk.css"
+    "revision": "afc8615425d62435c8fd",
+    "url": "/Coffeebar-website/static/css/main.3a985f7c.chunk.css"
   },
   {
-    "revision": "09eab775dc85de4e608d",
-    "url": "/Coffeebar-website/static/js/2.fad4b458.chunk.js"
+    "revision": "82a2da1783409e8a1f60",
+    "url": "/Coffeebar-website/static/js/2.e4709bea.chunk.js"
   },
   {
-    "revision": "eed63d6063f835b171d5",
-    "url": "/Coffeebar-website/static/js/main.04e8b819.chunk.js"
+    "revision": "afc8615425d62435c8fd",
+    "url": "/Coffeebar-website/static/js/main.d86cbc40.chunk.js"
   },
   {
     "revision": "3d263e16fe25a24dbb14",
